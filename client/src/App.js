@@ -11,6 +11,11 @@ function App() {
         }
         setClickedCount(clickedCount + 1);
     };
+    const handleResetClick = () => {
+        setIsActive(false);
+        setSeconds(0);
+        setClickedCount(0);
+    };
 
     useEffect(() => {
         let interval = null;
@@ -57,6 +62,26 @@ function App() {
                 <h2>
                     Click Per Second: <span style={{ color: "grey" }}>{seconds === 0 ? 0 : Math.floor(clickedCount / seconds)}</span>
                 </h2>
+            </div>
+            <div style={{ display: "flex" }}>
+                <button
+                    style={{
+                        backgroundColor: "#f44336",
+                        border: "none",
+                        color: "white",
+                        padding: "15px 32px",
+                        textAlign: "center",
+                        textDecoration: "none",
+                        display: "inline-block",
+                        fontSize: "16px",
+                        margin: "4px 2px",
+                        cursor: "pointer",
+                        marginLeft: "10px",
+                    }}
+                    onClick={() => handleResetClick()}
+                >
+                    RESET{" "}
+                </button>
             </div>
         </div>
     );

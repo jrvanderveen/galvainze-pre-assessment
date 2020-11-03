@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/galvainze-pre-assessment/static/js/main.c3f29476.chunk.js",
+    "main.js.map": "/galvainze-pre-assessment/static/js/main.c3f29476.chunk.js.map",
+    "runtime-main.js": "/galvainze-pre-assessment/static/js/runtime-main.34f32b62.js",
+    "runtime-main.js.map": "/galvainze-pre-assessment/static/js/runtime-main.34f32b62.js.map",
+    "static/js/2.4a145c84.chunk.js": "/galvainze-pre-assessment/static/js/2.4a145c84.chunk.js",
+    "static/js/2.4a145c84.chunk.js.map": "/galvainze-pre-assessment/static/js/2.4a145c84.chunk.js.map",
+    "index.html": "/galvainze-pre-assessment/index.html",
+    "static/js/2.4a145c84.chunk.js.LICENSE.txt": "/galvainze-pre-assessment/static/js/2.4a145c84.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34f32b62.js",
+    "static/js/2.4a145c84.chunk.js",
+    "static/js/main.c3f29476.chunk.js"
+  ]
+}
